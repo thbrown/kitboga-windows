@@ -104,12 +104,14 @@ document.addEventListener("DOMContentLoaded", async (event) => {
 
   // Initialize the game grid
   const gameContainer = document.getElementById("game-container");
-  const winMessage = document.getElementById("win-message");
   const colors = ["red", "blue", "green"];
-  const secondInstructions = document.getElementById("instructions-two");
+  const instructions = document.getElementById("instructions");
 
   // Function to initialize the game grid
   const initGameGrid = () => {
+    // Set Instructions
+    instructions.textContent = `Turn all the squares red`;
+
     // Set the CSS Grid layout columns dynamically
     gameContainer.style.gridTemplateColumns = `repeat(${squaresPerRow}, ${squareSize}px)`;
 
@@ -212,9 +214,6 @@ document.addEventListener("DOMContentLoaded", async (event) => {
 
           // Reinitialize the game grid
           initGameGrid();
-
-          // Reset instructions
-          secondInstructions.innerHTML = "";
         }
       }
     }
