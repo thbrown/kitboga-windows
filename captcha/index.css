@@ -86,3 +86,8 @@ body {
   filter: invert(70%) sepia(48%) saturate(5255%) hue-rotate(208deg)
     brightness(104%) contrast(101%);
 }
+
+button {
+  width: 75px;
+  height: 75px;
+}
