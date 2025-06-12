@@ -6,7 +6,7 @@ Live: https://thbrown.github.io/kitboga-windows/
 
 ## Description
 
-Asks the user to turn a set of squares red. Clicking a square changes its color, but it also changes s the colors of any adjacent squares aas well!
+Asks the user to turn a set of squares red. Clicking a square changes its color, but it also changes s the colors of any adjacent squares as well!
 User can select hard mode (3x3) or easy mode (1x4) depending on how they answer the "Are you smart?" prompt when first opening the CAPTCHA.
 
 Adapted from a game I made for [js13k](https://js13kgames.com/games/13-squared).
